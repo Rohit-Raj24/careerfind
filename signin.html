@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log In</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-gray-200">
+    <nav class="flex w-full h-16 items-center justify-between bg-gray-600">
+      <h1 class="text-white text-3xl font-mono pl-10">
+        <a href="#">CareerFind</a>
+      </h1>
+    </nav>
+    <div
+      class="container flex items-center w-10/12 mx-auto mt-2 bg-white h-full py-4 md:flex-row rounded-md"
+    >
+      <div class="flex items-center justify-center w-7/12">
+        <div class="flex flex-col items-start justify-center">
+          <h1 class="text-slate-900 text-3xl font-medium">
+            Register Yourself!
+          </h1>
+          <form action="">
+            <div class="flex">
+              <div class="w-full px-3 sm:w-1/2">
+                <label for="firstName">
+                  <p class="py-4">First Name</p>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder=""
+                    class="w-full py-3 border border-slate-200 rounded-lg px-9 focus:outline-none focus:border-slate-500 hover:shadow"
+                  />
+                </label>
+              </div>
+              <div class="w-full px-3 sm:w-1/2">
+                <label for="lastName">
+                  <p class="py-4">Last Name</p>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder=""
+                    class="w-full py-3 border border-slate-200 rounded-lg px-9 focus:outline-none focus:border-slate-500 hover:shadow"
+                  />
+                </label>
+              </div>
+            </div>
+            <div class="flex">
+              <div class="w-full px-3 sm:w-1/2">
+                <label for="email">
+                  <p class="py-4">Email Address</p>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder=""
+                    class="w-full py-3 border border-slate-200 rounded-lg px-9 focus:outline-none focus:border-slate-500 hover:shadow"
+                  />
+                </label>
+              </div>
+              <div class="w-full px-3 sm:w-1/2">
+                <label for="phoneNumber">
+                  <p class="py-4">Phone Number</p>
+                  <input
+                    type="tel"
+                    name="tel"
+                    id="tel"
+                    placeholder=""
+                    class="w-full py-3 border border-slate-200 rounded-lg px-9 focus:outline-none focus:border-slate-500 hover:shadow"
+                  />
+                </label>
+              </div>
+            </div>
+            <div class="flex">
+              <div class="w-full px-3 sm:w-1/2">
+                <label for="password">
+                  <p class="py-4">Password</p>
+                  <div class="relative flex item-center">
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      class="w-full py-3 border border-slate-200 rounded-lg px-9 focus:outline-none focus:border-slate-500 hover:shadow"
+                      placeholder=""
+                    />
+                  </div>
+                </label>
+              </div>
+              <div class="w-full px-3 sm:w-1/2">
+                <label for="password">
+                  <p class="py-4">Confirm Password</p>
+                  <div class="relative flex item-center">
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      class="w-full py-3 border border-slate-200 rounded-lg px-9 focus:outline-none focus:border-slate-500 hover:shadow"
+                      placeholder=""
+                    />
+                  </div>
+                </label>
+              </div>
+            </div>
+            <div class="py-4">
+              <input
+                type="checkbox"
+                id="rememberme"
+                name="rememberme"
+                value=""
+              />
+              <label for=""
+                >I agree for all <a href="#">Terms</a> and
+                <a href="#">Privacy Policy</a></label
+              ><br />
+            </div>
+            <div class="flex items-center justify-between w-full py-4">
+              <button
+                type="submit"
+                class="bg-blue-700 py-2 px-8 text-white rounded-md"
+              >
+                Create Account
+              </button>
+            </div>
+          </form>
+
+          <div class="flex items-center justify-between w-full">
+            <h1>Already have an account? <a href="login.html">Log in</a></h1>
+          </div>
+        </div>
+      </div>
+      <div class="flex items-center justify-between w-5/12">
+        <img src="./images/27.png" alt="Login" />
+      </div>
+    </div>
+  </body>
+</html>
